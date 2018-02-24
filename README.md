@@ -16,3 +16,4 @@ This face detector is an efficient detector that can obtain higher performance b
    <pre><code>#include "opencv2/highgui/highgui.hpp"
    #include "opencv2/imgproc/imgproc.hpp"
    #include "bsFaceDetector.h"</code></pre>
+3. Add "<SDK_Folder>\include" to additional include directories: (Project) Properities -> Configuration Properties -> C/C++ -> General -> Additional Include Directories.
