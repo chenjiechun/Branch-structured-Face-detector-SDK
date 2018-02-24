@@ -26,3 +26,11 @@ This face detector is an efficient detector that can obtain higher performance b
    * opencv_core2411.lib
    * bsFaceDetector.lib
    * seeta_facedet_lib.lib
+6. Build project.
+7. Copy model files to the folder which stores the executable file (.exe) created by visual studio 2013. The model files that should be copied are:
+   * cascadeModels.bin
+   * seeta_fd_frontal_v1.0.bin
+8. Add "<SDK_Folder>\Dll" to the PATH environment variable: 
+9. Reboot your computer.
+10. Run the executable file from Command Prompt.
+   
