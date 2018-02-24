@@ -1,0 +1,4 @@
+Pin 2.14 kit 74083
+E:  SYSCALL_INSPECTOR: Too long trace in the NTDLL!NtSetContextThread function
+E:  Incompatible operating system or incompatible software installed on the system
+E:  Pin is exiting due to fatal error

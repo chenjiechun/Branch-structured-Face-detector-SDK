@@ -1,0 +1,16 @@
+﻿cl : Command line warning D9002: ignoring unknown option '/arch:SSE2'
+  stdafx.cpp
+cl : Command line warning D9002: ignoring unknown option '/arch:SSE2'
+  detect.cpp
+D:\MyDevelop\eyetracker\for paper\FaceDetect\mySDK\include\bsFaceDetector.h(43): warning C4251: 'bsfd::BsFaceDetector::face_cascades' : class 'bsfd::CascadeClassifier_cjc' needs to have dll-interface to be used by clients of class 'bsfd::BsFaceDetector'
+          d:\mydevelop\eyetracker\for paper\facedetect\mysdk\include\classifier.h(133) : see declaration of 'bsfd::CascadeClassifier_cjc'
+D:\MyDevelop\eyetracker\for paper\FaceDetect\mySDK\include\bsFaceDetector.h(44): warning C4251: 'bsfd::BsFaceDetector::seeta_detector' : class 'seeta::FaceDetection' needs to have dll-interface to be used by clients of class 'bsfd::BsFaceDetector'
+          d:\mydevelop\eyetracker\for paper\facedetect\mysdk\include\face_detection.h(42) : see declaration of 'seeta::FaceDetection'
+D:\MyDevelop\eyetracker\for paper\FaceDetect\mySDK\include\bsFaceDetector.h(48): warning C4251: 'bsfd::BsFaceDetector::m_minFace' : class 'cv::Size_<int>' needs to have dll-interface to be used by clients of class 'bsfd::BsFaceDetector'
+D:\MyDevelop\eyetracker\for paper\FaceDetect\mySDK\include\bsFaceDetector.h(49): warning C4251: 'bsfd::BsFaceDetector::m_maxFace' : class 'cv::Size_<int>' needs to have dll-interface to be used by clients of class 'bsfd::BsFaceDetector'
+detect.cpp(38): warning C4305: 'argument' : truncation from 'double' to 'float'
+detect.cpp(41): warning C4305: 'argument' : truncation from 'double' to 'float'
+detect.cpp(70): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+detect.cpp(136): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+  detect.vcxproj -> D:\MyDevelop\eyetracker\for paper\FaceDetect\test\x64\Release\detect.exe
