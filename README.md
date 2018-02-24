@@ -7,5 +7,6 @@ This face detector is an efficient detector that can obtain higher performance b
 ## Requirement
 * Windows (Windows7 has been validated).
 * C++ compiler (Visual studio 2013 has been validated).
-## How to Create an application project with Visual Studio 2013
-1. tttt
+## How to Create an application program with Visual Studio 2013
+1. Create a project: FILE -> New -> Project... -> Visual C++ -> Win32 -> Win32 Console Application. 
+2. Include necessary header files in the main .cpp file. 
