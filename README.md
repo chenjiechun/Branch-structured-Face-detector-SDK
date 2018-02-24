@@ -19,4 +19,4 @@ This face detector is an efficient detector that can obtain higher performance b
 3. Add "<SDK_Folder>\include" to additional include directories: (Project) Properities -> Configuration Properties -> C/C++ -> General -> Additional Include Directories.
 
   <SDK_Folder> represents the folder which stores SDK files. For instance, the SDK files are stored at d:\BSFD_SDK,  <SDK_Folder> would represent "d:\BSFD_SDK" .
-4. 
+4. ttt
