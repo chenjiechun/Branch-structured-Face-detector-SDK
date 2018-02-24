@@ -5,5 +5,7 @@ This face detector is an efficient detector that can obtain higher performance b
 - We proposed a pixel-level image feature named Asymmetric LBP feature (ALBP).
 - We proposed a method for introducing ALBP features into a branch-structured face detector.
 ## Requirement
-* Windows (Windows7 has been valided).
-* C++ compiler (Visual studio 2013 has been valided).
+* Windows (Windows7 has been validated).
+* C++ compiler (Visual studio 2013 has been validated).
+## How to Create an application project with Visual Studio 2013
+1. tttt
