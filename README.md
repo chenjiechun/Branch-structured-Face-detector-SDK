@@ -16,8 +16,13 @@ This face detector is an efficient detector that can obtain higher performance b
    <pre><code>#include "opencv2/highgui/highgui.hpp"
    #include "opencv2/imgproc/imgproc.hpp"
    #include "bsFaceDetector.h"</code></pre>
-3. Add "<SDK_Folder>\include" to additional include directories: (Project) Properities -> Configuration Properties -> C/C++ -> General -> Additional Include Directories.
+3. Add "<SDK_Folder>\include" to Additional Include Directories: (Project) Properities -> Configuration Properties -> C/C++ -> General -> Additional Include Directories.
 
-    <SDK_Folder> represents the folder which stores SDK files. For instance, the SDK files are stored at d:\BSFD_SDK,  <SDK_Folder> would represent "d:\BSFD_SDK" .
+   <SDK_Folder> represents the folder which stores SDK files. For instance, the SDK files are stored at d:\BSFD_SDK,  <SDK_Folder> would represent "d:\BSFD_SDK" .
   
-4. ttt
+4. Add "<SDK_Folder>\lib" to Additional Library Directories: (Project) Properities -> Configuration Properties -> Linker -> General -> Additional Libray Directories.
+5. Add necessary Static Libraries to Additional Dependencies: (Project) Properities -> Configuration Properties -> Linker -> Input -> Additional Dependencies. The necessary Static Libraries are:
+   * opencv_highgui2411.lib
+   * opencv_core2411.lib
+   * bsFaceDetector.lib
+   * seeta_facedet_lib.lib
