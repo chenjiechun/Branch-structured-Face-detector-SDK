@@ -11,8 +11,8 @@ This face detector is an efficient detector that can obtain higher performance b
 1. Create a project: FILE -> New -> Project... -> Visual C++ -> Win32 -> Win32 Console Application. 
 2. Include necessary header files in .cpp files.
 
-   For instance, we created a project named "test". Then, a .cpp file named "test.cpp" would be created automatically. In the test.cpp file, header files should be included as follows:
+   For instance, we create a project named "test". Then, a .cpp file named "test.cpp" will be created automatically. In the test.cpp file, header files should be included as follows:
    
-   #include "opencv2/highgui/highgui.hpp"
+   <pre><code>#include "opencv2/highgui/highgui.hpp"
    #include "opencv2/imgproc/imgproc.hpp"
-   #include "bsFaceDetector.h"
+   #include "bsFaceDetector.h"</code></pre>
