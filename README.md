@@ -4,5 +4,3 @@ This face detector is an efficient detector that can obtain higher performance b
 - We designed a branch-structured detector.
 - We proposed a pixel-level image feature named Asymmetric LBP feature (ALBP).
 - We proposed a method for introducing ALBP features into a branch-structured face detector.
-- `one
-- two`
