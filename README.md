@@ -5,9 +5,8 @@ This face detector is an efficient detector that can obtain higher performance b
 - We proposed a pixel-level image feature named Asymmetric LBP feature (ALBP).
 - We proposed a method for introducing ALBP features into a branch-structured face detector.
 ## Performance and Efficiency Evaluation
-[Link](./Images/ROC.jpg)
+![Alt text](/path/to/img.jpg "Fig 1. Discrete ROC curve for our detector on FDDB Dataset.")
 
-Fig 1. Discrete ROC curve for our detector on FDDB Dataset.
 ## Requirement
 * Windows (Windows7 has been validated).
 * C++ compiler (Visual studio 2013 has been validated).
