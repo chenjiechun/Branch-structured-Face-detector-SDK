@@ -4,6 +4,9 @@ This face detector is an efficient detector that can obtain higher performance b
 - We designed a branch-structured detector.
 - We proposed a pixel-level image feature named Asymmetric LBP feature (ALBP).
 - We proposed a method for introducing ALBP features into a branch-structured face detector.
+## Performance and Efficiency Evaluation
+(Images\ROC.jpg)
+Fig 1. Discrete ROC curve for our detector on FDDB Dataset.
 ## Requirement
 * Windows (Windows7 has been validated).
 * C++ compiler (Visual studio 2013 has been validated).
@@ -20,7 +23,7 @@ This face detector is an efficient detector that can obtain higher performance b
 
    <SDK_Folder> represents the folder which stores SDK files. For instance, the SDK files are stored at d:\BSFD_SDK,  <SDK_Folder> would represent "d:\BSFD_SDK" .
   
-4. Add "<SDK_Folder>\lib" to Additional Library Directories: (Project) Properities -> Configuration Properties -> Linker -> General -> Additional Libray Directories.
+4. Add "<SDK_Folder>\lib\x64" (or "<SDK_Folder>\lib\x86") to Additional Library Directories: (Project) Properities -> Configuration Properties -> Linker -> General -> Additional Libray Directories.
 5. Add necessary Static Libraries to Additional Dependencies: (Project) Properities -> Configuration Properties -> Linker -> Input -> Additional Dependencies. The necessary Static Libraries are:
    * opencv_highgui2411.lib
    * opencv_core2411.lib
@@ -30,7 +33,7 @@ This face detector is an efficient detector that can obtain higher performance b
 7. Copy model files to the folder which stores the executable file (.exe) created by visual studio 2013. The model files that should be copied are:
    * cascadeModels.bin
    * seeta_fd_frontal_v1.0.bin
-8. Add "<SDK_Folder>\Dll" to the PATH environment variable: 
+8. Add "<SDK_Folder>\Dll\x64" (or "<SDK_Folder>\Dll\x86") to the PATH environment variable: 
 9. Reboot your computer.
 10. Run the executable file from Command Prompt.
    
