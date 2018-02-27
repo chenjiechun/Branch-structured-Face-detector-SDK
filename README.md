@@ -11,6 +11,12 @@ Fig 1. Discrete ROC curve for our detector on FDDB Dataset.
 
 Table 1. Detection speed of our detector
 
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
+
 |    CPU      | Image size | Min Face | Step | Scale factor | Needed memory | FPS                       |
 
 | ----------------------------------------------------------------------------------------------------- |
