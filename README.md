@@ -12,6 +12,7 @@ Fig 1. Discrete ROC curve for our detector on FDDB Dataset.
 Table 1. Detection speed of our detector
 
 |    CPU      | Image size | Min Face | Step | Scale factor | Needed memory | FPS                       |
+
 | ----------------------------------------------------------------------------------------------------- |
 
 
