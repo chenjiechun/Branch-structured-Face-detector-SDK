@@ -7,6 +7,8 @@ This face detector is an efficient detector that can obtain higher performance b
 ## Performance and Efficiency Evaluation
 ![Alt text](/Images/ROC.jpg  "Fig 1. Discrete ROC curve for our detector on FDDB Dataset.")
 
+Fig 1. Discrete ROC curve for our detector on FDDB Dataset.
+
 ## Requirement
 * Windows (Windows7 has been validated).
 * C++ compiler (Visual studio 2013 has been validated).
