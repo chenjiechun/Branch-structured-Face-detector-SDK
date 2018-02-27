@@ -50,7 +50,8 @@ Table 1. Detection speed of our detector
 8. Add "<SDK_Folder>\Dll\x64" (or "<SDK_Folder>\Dll\x86") to the PATH environment variable: 
 9. Reboot your computer.
 10. Run the executable file from Command Prompt.
-   
+##Acknowledgments
+During developing this face detector, we utilized partiall the works publisheb by the autors of SeetaFace.[Seataface](https://github.com/seetaface/SeetaFaceEngine/blob/master/FaceDetection/README.md)
 ## Contact with us
 <pre><code>Email: chenjiechun@neepu.edu.cn
 QQ: 418044891</code></pre>
