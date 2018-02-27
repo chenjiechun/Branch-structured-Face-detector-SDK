@@ -51,3 +51,6 @@ Table 1. Detection speed of our detector
 9. Reboot your computer.
 10. Run the executable file from Command Prompt.
    
+## Contact with us
+<pre><code>Email: chenjiechun@neepu.edu.cn
+QQ: 418044891</code></pre>
