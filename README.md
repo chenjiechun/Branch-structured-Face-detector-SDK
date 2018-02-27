@@ -10,6 +10,7 @@ This face detector is an efficient detector that can obtain higher performance b
 Fig 1. Discrete ROC curve for our detector on FDDB Dataset.
 
 Table 1. Detection speed of our detector
+
 |    CPU      | Image size | Min Face | Step | Scale factor | Needed memory | FPS                       |
 |-------------------------------------------------------------------------------------------------------|
 |             |            | 40\*40   | 3    | 1.2          |               | 163.3(a.jpg), 88.8(b.jpg) |
