@@ -23,7 +23,7 @@ Table 1. Detection speed of our detector
 
 ## Requirement
 * Windows (Windows7 has been validated).
-* C++ compiler (Visual studio 2013 has been validated).
+* C++ compiler \[Visual studio 2013 (Community version)has been validated].
 ## How to Create an face detection program with Visual Studio 2013
 1. Create a project: FILE -> New -> Project... -> Visual C++ -> Win32 -> Win32 Console Application. 
 2. Include necessary header files in .cpp files.
@@ -47,9 +47,8 @@ Table 1. Detection speed of our detector
 7. Copy model files to the folder which stores the executable file (.exe) created by visual studio 2013. The model files that should be copied are:
    * cascadeModels.bin
    * seeta_fd_frontal_v1.0.bin
-8. Add "<SDK_Folder>\Dll\x64" (or "<SDK_Folder>\Dll\x86") to the PATH environment variable: 
-9. Reboot your computer.
-10. Run the executable file from Command Prompt.
+8. Copy the .dll files that are stored in "<SDK_Folder>\Dll\x64" (or "<SDK_Folder>\Dll\x86") to the folder which stores the executable file (.exe) created by visual studio 2013. 
+9. Run the executable file from Command Prompt.
 ## Contact with us
 <pre><code>Email: chenjiechun@neepu.edu.cn
 QQ: 418044891</code></pre>
