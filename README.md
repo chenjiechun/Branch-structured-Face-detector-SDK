@@ -23,7 +23,7 @@ Table 1. Detection speed of our detector
 
 ## Requirement
 * Windows (Windows7 has been validated).
-* C++ compiler \[Visual studio 2013 (Community version)has been validated].
+* C++ compiler \[Visual studio 2013 (Community version) has been validated].
 ## How to Create an face detection program with Visual Studio 2013
 1. Create a project: FILE -> New -> Project... -> Visual C++ -> Win32 -> Win32 Console Application. 
 2. Include necessary header files in .cpp files.
