@@ -14,7 +14,7 @@ Table 1. Detection speed of our detector
 |    CPU      | Image size | Min Face | Step | Scale factor | Needed memory | FPS                       |
 |    :---:    | :---:      | :---:    | :---: | :---:       | :---:         | :---:                     |
 | G2030@3.0GHz, 2 threads | 640\*480    |  40\*40  | 3    |1.2        |15MB               | 163.3(a.jpg), 88.8(b.jpg) |
-| G2030@3.0GHz, 2 threads | 640\*480    | 80\*80   | 3    |1.2        |15MB               | 389.7(a.jpg), 238.6(b.jpg) |
+|  | 640\*480    | 80\*80   | 3    |1.2        |15MB               | 389.7(a.jpg), 238.6(b.jpg) |
 
 |![Alt text](/Images/a.jpg)|  ![Alt text](/Images/b.jpg)|
 |    :---:    | :---:      |
