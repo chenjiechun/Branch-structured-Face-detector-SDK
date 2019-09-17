@@ -11,10 +11,14 @@ Fig 1. Discrete ROC curve for our detector on FDDB Dataset.
 
 Table 1. Detection speed of our detector
 
-|  CPU    | Image Size| Min Face | Step | Scale factor | Needed memory | Threads| FPS      |
-| ---   | ---      | ---    | --- | ---       | ---    | ---- | ---   |
-| i7-7700 | 640\*480 |  40\*40  | 3  |1.2  |15MB  | 3  | 163.3(a.jpg), 88.8(b.jpg) |
-| i7-7700 | 640\*480 | 80\*80   | 3  |1.2  |15MB  | 3  | 389.7(a.jpg), 238.6(b.jpg) |
+|  CPU    | Image Size| Step | Scale factor | Needed memory | Threads| Min Face | FPS      |
+| ---   | ---  | --- | --- | --- | ---    | ---- | ---   |
+| i7-7700 | 640\*480 | 3  |1.2  |15MB  | 4  |  40\*40  | 163.3(a.jpg), 88.8(b.jpg) |
+| i7-7700 | 640\*480 | 3  |1.2  |15MB  | 4  | 80\*80   | 389.7(a.jpg), 238.6(b.jpg) |
+| i7-7700 | 640\*480 | 3  |1.2  |15MB  | 2  |  40\*40  | 163.3(a.jpg), 88.8(b.jpg) |
+| i7-7700 | 640\*480 | 3  |1.2  |15MB  | 2  | 80\*80   | 389.7(a.jpg), 238.6(b.jpg) |
+| i7-7700 | 640\*480 | 3  |1.2  |15MB  | 1  |  40\*40  | 163.3(a.jpg), 88.8(b.jpg) |
+| i7-7700 | 640\*480 | 3  |1.2  |15MB  | 1  | 80\*80   | 389.7(a.jpg), 238.6(b.jpg) |
 
 |![Alt text](/Images/a.jpg)|  ![Alt text](/Images/b.jpg)|
 |    :---:    | :---:      |
