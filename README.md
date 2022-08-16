@@ -2,7 +2,7 @@
 ## Brief description
 This is a detector that can make a trade-off between efficiency and performance for face detection. It was developed on the basis of our paper: 
 Chen, Jc., Wang, J., Zhao, Lp. et al. Branch-structured detector for fast face detection using asymmetric LBP features. SIViP 14, 1699–1706 (2020). https://doi.org/10.1007/s11760-020-01710-7
-The main contributions of our manuscript are as follows: 
+. The main contributions of our manuscript are as follows: 
 - We designed a branch-structured detector.
 - We proposed a pixel-level image feature named Asymmetric LBP feature (ALBP).
 - We proposed a method for introducing ALBP features into a branch-structured face detector.
